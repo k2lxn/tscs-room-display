@@ -101,8 +101,13 @@ a {
 
 #upcoming-schedule-box {
 	padding: 5px @padding-base;
-	background: @grey-light; 
-	height: 100%;
+	background-color: @grey-light; 
+	background-image: url("../img/wallscreen1@1x.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: bottom right;
+	height: calc(~'100% - 5em - 60px');
+	overflow-y: auto;
 
 	#upcoming-schedule-title {
 		text-transform: uppercase;

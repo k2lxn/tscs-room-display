@@ -273,8 +273,13 @@ a {
 }
 #upcoming-schedule-box {
   padding: 5px 20px;
-  background: #e3e3e3;
-  height: 100%;
+  background-color: #e3e3e3;
+  background-image: url("../img/wallscreen1@1x.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom right;
+  height: calc(100% - 5em - 60px);
+  overflow-y: auto;
 }
 #upcoming-schedule-box #upcoming-schedule-title {
   text-transform: uppercase;
