@@ -211,7 +211,8 @@ body {
   margin-bottom: 0;
   text-align: center;
   vertical-align: middle;
-  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
@@ -247,9 +248,11 @@ a {
   z-index: 10;
   color: #fff;
   font-size: 1em;
+  display: -ms-flexbox;
   display: flex;
 }
 #date-time-box #date-time-box-top-content {
+  display: -ms-flexbox;
   display: flex;
   margin-right: 20px;
 }
@@ -257,7 +260,7 @@ a {
   margin-right: 8px;
 }
 #room-availability-box {
-  background-color: #ff2828;
+  background-color: #e32d1c;
   color: #fff;
   text-transform: uppercase;
   padding: 20px;
@@ -273,7 +276,7 @@ a {
 }
 #upcoming-schedule-box {
   padding: 5px 20px;
-  background-color: #e3e3e3;
+  background-color: #e2e2e2;
   background-image: url("../img/wallscreen1@1x.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -293,7 +296,7 @@ a {
   padding-top: 10px;
 }
 #upcoming-schedule-box p.event-entry-now {
-  color: #e3e3e3;
+  color: #e2e2e2;
   background-color: #333;
   font-weight: 300;
   padding-left: 3px;
